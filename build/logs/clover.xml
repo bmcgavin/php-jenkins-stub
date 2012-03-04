@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1330872015">
-  <project timestamp="1330872015">
-    <metrics files="0" loc="0" ncloc="0" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+<coverage generated="1330899669">
+  <project timestamp="1330899669">
+    <file name="/Users/rich/Documents/Code/stub/src/CHANGEME.php">
+      <class name="CHANGEME" namespace="global">
+        <metrics methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </class>
+      <line num="12" type="method" name="hello" crap="1" count="1"/>
+      <line num="13" type="stmt" count="1"/>
+      <line num="17" type="stmt" count="1"/>
+      <metrics loc="16" ncloc="10" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+    </file>
+    <metrics files="1" loc="16" ncloc="10" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
   </project>
 </coverage>
