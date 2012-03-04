@@ -1,0 +1,3 @@
+host: localhost
+port: <%= ENV['CUKE4PHP_PORT'] %>
+
