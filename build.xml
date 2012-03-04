@@ -146,7 +146,11 @@
  </target>
 
  <target name="cuke4php" description="Run unit tests with cuke4PHP">
-  <exec executable="cuke4php" failonerror="true"/>
+  <exec executable="cuke4php" failonerror="true">
+   <arg value="--no-color" />
+   <arg value="--require" />
+   <arg value="features/" />
+  </exec>
  </target>
 
  <target name="phpcb"
