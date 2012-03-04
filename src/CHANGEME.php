@@ -1,7 +1,8 @@
 <?PHP
 
-function hello() {
-	return 'hello';
+class CHANGEME {
+	function hello() {
+		return 'hello';
+	}
 }
 
-hello();
