@@ -7,7 +7,8 @@ spl_autoload_register(
         static $classes = null;
         if ($classes === null) {
             $classes = array(
-                'changemetests' => '/unit/CHANGEMETest.php'
+                'calculatorsteps' => '/step_definitions/calculator_steps.php',
+                'hellosteps' => '/step_definitions/hello_steps.php'
             );
         }
         $cn = strtolower($class);

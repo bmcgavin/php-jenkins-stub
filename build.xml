@@ -52,6 +52,12 @@
    <arg path="${basedir}/tests/autoload.php" />
    <arg path="${basedir}/tests" />
   </exec>
+
+  <exec executable="phpab">
+   <arg value="--output" />
+   <arg path="${basedir}/features/autoload.php" />
+   <arg path="${basedir}/features" />
+  </exec>
  </target>
 
  <target name="lint">
