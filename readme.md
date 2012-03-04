@@ -1,3 +1,6 @@
+PEAR Packages to install
+========================
+
 sudo pear channel-discover pear.phpunit.de
 sudo pear channel-discover components.ez.no
 sudo pear channel-discover pear.symfony-project.com
