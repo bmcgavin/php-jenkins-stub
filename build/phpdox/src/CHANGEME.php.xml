@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <file xmlns="http://xml.phpdox.de/src#">
-  <head path="src" file="CHANGEME.php" realpath="/Users/rich/Documents/Code/stub/src/CHANGEME.php" size="68" time="2012-03-04T14:35:26+00:00" unixtime="1330871726" sha1="735f6dec85a3fc7ecc7932a71f8da2f10340a5fb"/>
-  <class full="CHANGEME" name="CHANGEME" final="false" abstract="false" start="3" end="7">
-    <method name="hello" start="4" end="6" abstract="false" final="false" static="false" visibility="public"/>
+  <head path="src" file="CHANGEME.php" realpath="/Users/rich/Documents/Code/stub/src/CHANGEME.php" size="120" time="2012-03-04T21:54:49+00:00" unixtime="1330898089" sha1="9aa34e414e112435e32aa4517b8ab118d05f9ab9"/>
+  <class full="CHANGEME" name="CHANGEME" final="false" abstract="false" start="7" end="15">
+    <docblock>
+      <description compact="Example PHP DOC"/>
+    </docblock>
+    <method name="hello" start="12" end="14" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description compact="Function"/>
+      </docblock>
+    </method>
   </class>
 </file>
