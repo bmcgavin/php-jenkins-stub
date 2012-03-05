@@ -9,7 +9,7 @@ $old = 'changeme';
 $uold = 'CHANGEME';
 
 $new = strtolower($argv[1]);
-$unew = strtoupper($new);
+$unew = $argv[1];
 
 $files = array(
 	"features/" . $uold . ".feature",
