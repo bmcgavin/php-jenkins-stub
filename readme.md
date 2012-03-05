@@ -54,14 +54,20 @@ things from CHANGEME.
 
 ## PEAR Packages to install
 
-sudo pear channel-discover pear.phpunit.de
+	sudo pear channel-discover pear.phpunit.de
+	sudo pear channel-discover components.ez.no
+	sudo pear channel-discover pear.symfony-project.com
+	sudo pear upgrade pear
+	sudo pear install pear.phpqatools.org/phpqatools channel://pear.netpirates.net/phpDox-0.4.0 theseer/Autoload phpunit/PHPUnit
 
-sudo pear channel-discover components.ez.no
+## Config
 
-sudo pear channel-discover pear.symfony-project.com
+Make sure Jenkins' git plugin is pointing at the correct git binary if git is not in your path.
 
-sudo pear upgrade pear
+Make sure the PEAR directory is in your php.ini's include_path
 
-sudo pear install pear.phpqatools.org/phpqatools channel://pear.netpirates.net/phpDox-0.4.0 phpab theseer/Autoload phpunit/PHPUnit
+Make sure that all the php* and pdepend binaries are in your path
 
+Requires php5-xsl and php5-iconv and php5-sockets
 
+Requires gems term-ansicolor rspec webrat builder
