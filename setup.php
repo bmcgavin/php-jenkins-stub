@@ -22,7 +22,8 @@ $contents = array(
 	"phpdox.xml.dist",	
 	"phpunit.xml.dist",
 	"src/" . $unew . ".php",
-	"tests/unit/" . $unew . "Test.php"
+	"tests/unit/" . $unew . "Test.php",
+	"features/step_definitions/" . $unew . "_steps.php"
 );
 
 foreach($files as $file) {
