@@ -1,6 +1,6 @@
 <?php
 
-class HelloSteps extends CucumberSteps {
+class CHANGEMESteps extends CucumberSteps {
 
 	public function beforeAll() {
 		//Anything you want.
